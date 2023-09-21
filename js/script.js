@@ -3,3 +3,9 @@ const myFunction = () => {
 };
 
 console.log(typeof myFunction === "function"); // true
+
+function welcome() {
+    console.log("Hello World!");
+}
+
+welcome();
