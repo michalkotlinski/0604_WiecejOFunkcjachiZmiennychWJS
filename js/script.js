@@ -1,11 +1,9 @@
-const myFunction = () => {
-    console.log("something");
-};
+welcome();
 
-console.log(typeof myFunction === "function"); // true
+console.log(variable);
 
 function welcome() {
     console.log("Hello World!");
 }
 
-welcome();
+var variable = 5;
